@@ -97,13 +97,13 @@ class DisplayPage extends StatelessWidget {
                         textColor: Colors.white,
                         fontSize: 16.0);
                   },
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.cyan,
+                      shadowColor: Colors.blueGrey),
                   child: const Text(
                     "Get Report ",
                     style: TextStyle(fontSize: 25),
                   ),
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.cyan,
-                      shadowColor: Colors.blueGrey),
                 ),
               ),
             ],
