@@ -20,7 +20,7 @@ class UpdatePage extends StatelessWidget {
               aspectRatio: 6 / 4,
               child:
                   Column(mainAxisAlignment: MainAxisAlignment.start, children: [
-                Padding(
+                const Padding(
                     padding: EdgeInsets.all(20),
                     child: Text(
                       "Add to Inventory ",
@@ -37,11 +37,12 @@ class UpdatePage extends StatelessWidget {
                         child: SizedBox(
                       width: 500,
                       child: TextFormField(
-                        style: TextStyle(fontSize: 18),
+                        style: const TextStyle(fontSize: 18),
                         decoration: InputDecoration(
                             hintText: "Enter Item Name",
                             enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blue),
+                                borderSide:
+                                    const BorderSide(color: Colors.blue),
                                 borderRadius: BorderRadius.circular(5))),
                       ),
                     )),
@@ -49,7 +50,7 @@ class UpdatePage extends StatelessWidget {
                         child: SizedBox(width: 125, child: CustomCounter())),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
                 Row(
